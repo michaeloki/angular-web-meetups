@@ -1,0 +1,40 @@
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .is-mobile .toolbar {
+    position: fixed;
+    z-index: 2;
+  }
+  
+  h1.app-name {
+    margin-left: 8px;
+  }
+  
+  .sidenav-container {
+    flex: 1;
+  }
+  
+  .is-mobile .sidenav-container {
+    flex: 1 0 auto;
+  }
+  
+  .screen_back {
+    background-image: url('/assets/imgs/rainbow.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .pageScreen {
+    background: #d9dadf;
+  }
+
+  .darkGrey {
+    background:#e2d8d8;
+  }
